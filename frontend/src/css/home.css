@@ -1,6 +1,6 @@
 .bd-sidebar {position: -webkit-sticky;
 position: sticky;
-top: 5rem;
+top: 6rem;
 display: block !important;
 height: calc(100vh - 6rem);
 padding-left: 0.25rem;

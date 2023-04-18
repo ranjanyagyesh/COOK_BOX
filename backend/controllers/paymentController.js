@@ -1,5 +1,6 @@
 
 const crypto=require('crypto');
+// payment input 
 const Payment=require('../models/paymentModel');
 const Razorpay = require('razorpay');
 const instance = new Razorpay({

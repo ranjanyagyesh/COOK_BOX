@@ -9,7 +9,7 @@ const nodemailer = require("nodemailer");
 const Driver= require('../models/Driver');
 const Doctor= require('../models/Doctor');
 const Motivation= require('../models/Motivation');
-
+//basic setup done
 const signup =async  (req, res, next) => {
     const errors = validationResult(req); // this will validate the checks we put on user router file for name email and password.
     if (!errors.isEmpty()) {

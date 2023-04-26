@@ -469,6 +469,7 @@ const signup =async  (req, res, next) => {
     //   {_id: x},
     //   {$push: {rate: x}},
     //   )
+      //finals
     console.log(recipe.rate);
     recipe.save();
     res.status(200).json("rating updated");

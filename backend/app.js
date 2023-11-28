@@ -42,7 +42,7 @@ app.use('/api/users',userRoutes);
 //);
 app.use("/api/payment", paymentRoute);
 app.use((req,res,next)=>{ 
-    const error = new HttpError('Could not find this shit' , 404);
+    const error = new HttpError('Could not find this' , 404);
     throw error;
 
 }
